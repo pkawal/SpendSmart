@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@color/colorPrimary"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:padding="10dp">
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:orientation="vertical"
+        android:paddingLeft="20dp"
+        android:paddingRight="20dp" >
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="150dp"
+            android:orientation="horizontal">
+            <ImageView
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:id="@+id/bill"
+                android:layout_gravity="center"/>
+            <Button
+                android:layout_width="100dp"
+                android:layout_height="50dp"
+                android:text="Upload"
+                android:id="@+id/uploadamount"
+                android:layout_gravity="center"
+                android:layout_marginLeft="20dp"/>
+
+        </LinearLayout>
+
+
+        <EditText
+            android:id="@+id/amount"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:background="@color/white"
+            android:hint="₹"
+            android:padding="10dp"
+            android:singleLine="true"
+            android:textColor="@color/input_login"
+            />
+
+        <!-- Login Button -->
+
+        <Button
+            android:id="@+id/submit"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dip"
+            android:background="@color/btn_login_bg"
+            android:text="Submit"
+            />
+
+        <!-- Link to Login Screen -->
+    </LinearLayout>
+
+
+
+</LinearLayout>

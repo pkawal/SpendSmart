@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@color/colorPrimary"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:padding="10dp">
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:orientation="vertical"
+        android:paddingLeft="20dp"
+        android:paddingRight="20dp" >
+
+        <EditText
+            android:id="@+id/amount"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:background="@color/white"
+            android:hint="₹"
+            android:padding="10dp"
+            android:singleLine="true"
+            android:textColor="@color/input_login"
+            />
+
+        <Spinner
+            android:id="@+id/category"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:hint="Choose Category"
+            android:background="@color/white"
+            />
+        <EditText
+            android:id="@+id/place"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:background="@color/white"
+            android:layout_marginTop="10dp"
+            android:padding="10dp"
+            android:hint="Place"
+            android:singleLine="true"
+            android:textColor="@color/input_login"
+            />
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="75dp"
+            android:layout_marginBottom="10dp"
+            android:orientation="horizontal">
+            <EditText
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:hint="N"
+                android:layout_gravity="center"
+                android:id="@+id/number"
+                android:background="@color/white"
+                android:singleLine="true"
+                android:textColor="@color/input_login"/>
+            <Button
+                android:id="@+id/split"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_gravity="center"
+                android:layout_marginLeft="20dp"
+                android:background="@color/btn_login_bg"
+                android:text="Split" />
+        </LinearLayout>
+
+        <!-- Login Button -->
+        <LinearLayout
+            android:id="@+id/editTextGroupLayout"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+
+            >
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/btnSave"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dip"
+            android:background="@color/btn_login_bg"
+            android:text="Submit" />
+
+        <!-- Link to Login Screen -->
+    </LinearLayout>
+
+
+
+</LinearLayout>

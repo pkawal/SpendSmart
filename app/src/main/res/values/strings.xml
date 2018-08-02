@@ -1,0 +1,50 @@
+<resources>
+    <string name="app_name">SpendSmart</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="hint_email">Email</string>
+    <string name="hint_password">Password</string>
+    <string name="hint_name">Fullname</string>
+    <string name="btn_login">LOGIN</string>
+    <string name="btn_register">REGISTER</string>
+    <string name="btn_link_to_register">Not a member? Sign up now.</string>
+    <string name="btn_link_to_login">Already registred! Login Me.</string>
+    <string name="welcome">Welcome</string>
+    <string name="btn_logout">LOGOUT</string>
+    <string name="name">Fullname</string>
+    <string name="title_activity_login">LoginActivity</string>
+    <string name="title_activity_register">RegisterActivity</string>
+    <string name="drawer_open">Open</string>
+    <string name="drawer_close">Close</string>
+    <string name="title_transactions">Transactions</string>
+    <string name="title_profile">Profile</string>
+    <string name="title_home">Home</string>
+    <string name="nav_item_home">Home</string>
+    <string name="nav_item_transactions">Transactions</string>
+    <string name="nav_item_profile">Profile</string>
+    <string name="nav_item_logout">Logout</string>
+
+
+    <string-array name="nav_drawer_labels">
+        <item>@string/nav_item_home</item>
+        <item>@string/nav_item_transactions</item>
+        <item>@string/nav_item_profile</item>
+        <item>@string/nav_item_logout</item>
+    </string-array>
+    <string-array name="categories">
+        <item>Food</item>
+        <item>Clothes</item>
+        <item>Groceries</item>
+        <item>Utilities</item>
+    </string-array>
+
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_activity_manual">ManualActivity</string>
+    <string name="title_activity_transaction">TransactionActivity</string>
+    <string name="title_activity_profile">ProfileActivity</string>
+    <string name="title_activity_ocr">OCRActivity</string>
+
+
+</resources>
